@@ -14,7 +14,7 @@ def links(request):
             'Information': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Porto': '/information/porto/',
+                    'Vigo': '/information/vigo/',
                     'Venue': '/information/venue/',
                     'Grants': '/information/grants/',
                     'Sprints': '/information/sprints/',

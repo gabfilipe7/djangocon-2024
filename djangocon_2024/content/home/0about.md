@@ -1,11 +1,7 @@
 title: about
 layout: home_about
 
-<center>
-#### Join us for five days of talks, sprints, and tutorials!
 
-</center>
-    
 
 #### <strong> DjangoCon Europe is run by the community for the community. </strong>
 

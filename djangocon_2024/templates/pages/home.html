@@ -3,69 +3,57 @@
 {% block content %}
 
   {# HOME-HEADER #}
-
   <div class="container" id="home_header">
     <div class="row">
-        <div class="col-md-6 order-1 order-md-0" id="main_logo">
-            <img src="{% static 'images/logo/main_logo.png' %}" alt="Wave Image" class="img-fluid">
+      <div class="col-md-6 order-1 order-md-0" id="main_logo">
+        <img src="{% static 'images/logo/main_logo.png' %}" alt="Wave Image" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-0 order-md-1">
+        <h3 class="main_title">We're back — June 5th-9th</h3>
+        <div class="d-flex align-items-center justify-content-center h-100">
+          
+          <div class="button1-container">
+            <button class="btn" id="btn1">
+              <span>Check out the event photos</span>
+            </button>
+          </div>
+          <div class="button2-container">
+            <button class="btn" id="btn2">
+              <span>Watch the talks online</span>
+            </button>
+          </div>
         </div>
-        <div class="col-md-6 order-0 order-md-1">
-            <div class="d-flex align-items-center justify-content-center h-100">
-              <div class="button1-container">
-
-                  <button class="btn" id="btn1">
-
-                    <span>
-                      Check out the event photos </span>
-                  </button>
-
-              </div>
-
-
-              <div class="button2-container">
-
-                  <button class="btn" id="btn2">
- 
-                    <span>Watch the talks online</span>
-                  </button>
-
-              </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
+  
+  
+{# HOME-ABOUT #}
+{% include 'modules/default.html' with content=files.0 %}
+
+{# IMPORTANT DATES #}
+{% include 'modules/default.html' with content=files.1 %}
+
+{# HOME-SPONSORS #}
+<div class="container-fluid home-sponsors">
+  <h1 class="d-block text-center title title-lg">our <strong>sponsors</strong></h1>
+  {% include 'modules/default.html' with content=files.2 %}
 </div>
 
-  
-  
-  
-  
-  {# HOME-ABOUT #}
-  {% include 'modules/default.html' with content=files.0 %}
+{#  ABOUT#}
+{#  {% include 'templates/default.html' with content=files.0 %}#}
+{#  <hr/>#}
 
-  {# IMPORTANT DATES #}
-  {% include 'modules/default.html' with content=files.1 %}
+{#  LATEST-NEWS#}
+{#  {% include 'modules/home/news.html' %}#}
 
-  {# HOME-SPONSORS #}
-  <div class="container-fluid home-sponsors">
-    <h1 class="d-block text-center title title-lg">our <strong>sponsors</strong></h1>
-    {% include 'modules/default.html' with content=files.2 %}
-  </div>
+{#  PORTO-INFO#}
+{% comment %} {% include 'modules/default.html' with content=files.1 %} {% endcomment %}
 
+{#  SPONSORS#}
+{#  {% include 'modules/default.html' with content=files.2 %}#}
 
-  {#  ABOUT#}
-  {#  {% include 'templates/default.html' with content=files.0 %}#}
-  {#  <hr/>#}
-
-  {#  LATEST-NEWS#}
-  {#  {% include 'modules/home/news.html' %}#}
-
-  {#  PORTO-INFO#}
-  {% comment %} {% include 'modules/default.html' with content=files.1 %} {% endcomment %}
-
-  {#  SPONSORS#}
-  {#  {% include 'modules/default.html' with content=files.2 %}#}
-
-  {#  MAILING-LIST#}
-  {#  {% include 'modules/home/mailing.html' %}#}
+{#  MAILING-LIST#}
+{#  {% include 'modules/home/mailing.html' %}#}
 
 {% endblock content %}

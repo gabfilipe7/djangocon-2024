@@ -139,7 +139,7 @@ body {
   }
 }
 .important-dates {
-  background-color: #0078FF;
+  background-color: #863b35;
   padding-top: 48px;
   padding-top: 3rem;
   padding-bottom: 48px;
@@ -199,7 +199,7 @@ body {
 
 .home-sponsors {
   background: #EDEDEB;
-  color: #043062;
+  color: #AC7870;
   padding-top: 48px;
   padding-top: 3rem;
   padding-bottom: 48px;
@@ -212,10 +212,10 @@ body {
 .home-sponsors .title {
   padding-bottom: 32px;
   padding-bottom: 2rem;
-  color: #0078FF;
+  color: #863b35;
 }
 .home-sponsors .title strong {
-  color: #043062;
+  color: #AC7870;
 }
 .home-sponsors .margin-right {
   display: block;
@@ -225,8 +225,8 @@ body {
 }
 .home-sponsors .sponsors-content h5 {
   text-align: start;
-  border-top: 2px solid #043062;
-  border-top: 0.125rem solid #043062;
+  border-top: 2px solid #AC7870;
+  border-top: 0.125rem solid #AC7870;
   max-width: 192px;
   max-width: 12rem;
   margin-top: 32px;
@@ -277,7 +277,7 @@ body {
   padding-bottom: 2.5rem;
 }
 .content-container .content-title h1 {
-  color: #0078FF;
+  color: #863b35;
 }
 .content-container .content-title h1.parent-title {
   opacity: 30%;
@@ -361,7 +361,7 @@ body {
 }
 
 .text-blue {
-  color: #0078FF;
+  color: #863b35;
 }
 
 .text-hidden {
@@ -475,14 +475,14 @@ body {
   border: none;
 }
 .header .subnav {
-  background: #0078FF;
+  background: #863b35;
 }
 .header .container-fluid {
   padding: 0px;
   padding: 0rem;
 }
 .header .dropdown-menu {
-  background: #0078FF;
+  background: #863b35;
 }
 .header .dropdown-item {
   color: white;
@@ -559,7 +559,7 @@ body {
   padding-top: 1rem;
   padding-bottom: 16px;
   padding-bottom: 1rem;
-  background: #043062;
+  background: #AC7870;
 }
 .custom-footer .footer-end p {
   margin: 2px;

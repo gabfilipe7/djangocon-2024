@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
-.home-subheader .btn-tickets,.home-subheader .home-about p,.home-subheader h4,.home-text,.important-dates .dates blockquote blockquote p{
+.home-text,.important-dates .dates blockquote blockquote p{
     font:normal normal normal 18px/24px Ubuntu,sans-serif;
     font:normal normal normal 1.125rem/1.5rem Ubuntu,sans-serif
 }
@@ -97,7 +97,7 @@
     }
 }
 .important-dates{
-    background-color:#0078ff;
+    background-color:blue;
     padding-bottom:3rem;
     padding-top:3rem
 }
@@ -147,7 +147,7 @@
 }
 .home-sponsors{
     background:#ededeb;
-    color:#043062;
+    color:#863b35;
     padding-bottom:3rem;
     padding-top:3rem
 }
@@ -156,17 +156,17 @@
     width:0
 }
 .home-sponsors .title{
-    color:#0078ff;
+    color:#a54c45;
     padding-bottom:2rem
 }
 .home-sponsors .title strong{
-    color:#043062
+    color:#411e1b
 }
 .home-sponsors .margin-left,.home-sponsors .margin-right{
     display:block
 }
 .home-sponsors .sponsors-content h5{
-    border-top:.125rem solid #043062;
+    border-top:.125rem solid #863b35;
     margin-top:2rem;
     max-width:192px;
     max-width:12rem;
@@ -185,15 +185,15 @@
     padding-top:2.5rem
 }
 .content-container .content-title h1{
-    color:#0078ff
+    color:#863b35
 }
 .content-container .content-title h1.parent-title{
-    color:#003c80;
+    color:#030507;
     margin-bottom:0;
     opacity:30%
 }
 .content-container .simple-content{
-    color:#003c80;
+    color:#030507;
     font:18px/24px Ubuntu,sans-serif;
     font:1.125rem/1.5rem Ubuntu,sans-serif;
     overflow-x:auto!important;
@@ -207,8 +207,8 @@
 }
 .content-container .simple-content .btn{
     background-color:#ffa300;
-    border:.0625rem solid #003c80;
-    color:#003c80
+    border:.0625rem solid #030507;
+    color:#030507
 }
 .content-container img{
     width:100%
@@ -249,7 +249,7 @@ body,html{
     flex-shrink:0
 }
 .text-blue{
-    color:#0078ff
+    color:#863b35
 }
 .text-hidden{
     color:transparent
@@ -319,7 +319,7 @@ body,html{
     text-decoration:none
 }
 .header .dropdown-item:hover{
-    background-color:#003c80
+    background-color:#AC7870
 }
 .header .nav-sm{
     display:block;
@@ -335,18 +335,23 @@ body,html{
     color:#000000 !important;
 }
 
+.header .nav-link-lg:hover{
+
+    color:#AC7870 !important;
+}
+
 .header .btn-primary{
     background:transparent;
     border:none
 }
 .header .subnav{
-    background:#0078ff
+    background:#863b35
 }
 .header .container-fluid{
     padding:0
 }
 .header .dropdown-menu{
-    background:#0078ff
+    background:#863b35
 }
 .header .dropdown-item{
     color:#fff
@@ -498,8 +503,8 @@ img.hotel{
   width: 400px;
   height: 400px;
   position: relative;
-  left: 40%;
-  top: 25%;
+  left: 50%;
+  top: 5%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
@@ -509,8 +514,8 @@ img.hotel{
     width: 400px;
     height: 400px;
     position: relative;
-    left: 25%;
-    top: 50%;
+    left: 35%;
+    top: 25%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -519,42 +524,47 @@ img.hotel{
 
 #btn1 {
     
-  width: 320px;
-  height: 60px;
-  border-radius: 50px;
-  cursor: pointer;
-  background-color:#005E83;
-  border: 1px solid #91C9FF;
-  outline: none;
+    font-size: 20px !important;
+    width: 340px;
+    height: 70px;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: #AC7870;
+    border: 1px solid #AC7870;
+    outline: none;
 }
 
 #btn2 {
-    width: 320px;
-    height: 60px;
-    border-radius: 50px;
+    font-size: 20px !important;
+    width: 340px;
+    height: 70px;
+    border-radius: 35px;
     cursor: pointer;
-    background-color: #48A0B7;
-    border: 1px solid #91C9FF;
+    background-color: #AC7870;
+    border: 1px solid #AC7870;
     outline: none;
   }
 
 
 #btn1:hover {
-  background-color: #024b68;
+  background-color: #753831;
 }
 #btn2:hover {
-    background-color: #387e8f;
-  }
+    background-color: #753831;
+}
 
-
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+  
 
 .btn span {
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 100;
 }
 
-/* Add this to your CSS file */
 .overlay-text {
     
     position: absolute;
@@ -565,18 +575,61 @@ img.hotel{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color */
-    color: white; /* Text color */
-    z-index: 1; /* Ensure it's above the image */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
   }
-  
-  #yoggi{
-    z-index: 1;
+
+
+#wave_container {
+    background-image: url('../images/background/wave.png');
+
+    height: 700px;
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    max-width: 4800px;
+}
+
+#wave_text {
+    font-size: 25px;
+    padding-top: 30%;
+    color: #f2ebe3;
+}
+
+
+@media screen and (min-width: 2081px) {
+    #wave_container {
+        height: 800px; 
+    }
+    #wave_text {
+        padding-top: 38%;
+    }
   }
-  
-    
-  #yoggi2{
-    background-image: url('{% static "images/background/wave.png" %}');
-    z-index: 2;
+  @media screen and (min-width: 3081px) {
+    #wave_container {
+      height: 1000px;
+    }
+
+    #wave_text {
+        font-size: 30px;
+        padding-top: 48%;
+    }
+
   }
-  
+  @media screen and (min-width: 4081px) {
+    #wave_container {
+        height: 1100px; 
+        
+    }
+    #wave_text {
+        padding-top: 53%;
+    }
+
+  }
+
+
+  .main_title{
+    color: #66322e;
+    position: relative;
+    padding-top: 100px;
+    left: 42%;
+  }
