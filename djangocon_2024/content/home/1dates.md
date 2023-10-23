@@ -1,4 +1,4 @@
-title: important dates
+title: Important dates
 layout: home_dates
 
 > #### march
