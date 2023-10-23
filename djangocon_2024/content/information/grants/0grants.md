@@ -1,7 +1,7 @@
 title: opportunity<br/> grants
 layout: simple
 
-**DjangoCon Europe 2022 offers grants to those who might otherwise not be able to attend, won't hesitate to participate.** Some expenses for the conference attendance (which could include travel, hotel, registration etc) will be covered for opportunity grant recipients.
+**DjangoCon Europe 2024 offers grants to those who might otherwise not be able to attend, won't hesitate to participate.** Some expenses for the conference attendance (which could include travel, hotel, registration etc) will be covered for opportunity grant recipients.
 
 We actively encourage you to apply for an opportunity grant. While we wish we could give grants to everyone who applies, we do not have the funds to do that. Our goal is to maximize the impact our grant program has, within the limited funds we have.
 

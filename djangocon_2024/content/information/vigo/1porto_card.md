@@ -1,4 +1,4 @@
-title: Porto.CARD
+title: Vigo.CARD
 layout: simple
 
 [Porto.CARD - Official City Pass](https://visitporto.travel/pt-PT/porto-card-landing-page#/){:target="_blank"}

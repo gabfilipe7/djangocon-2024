@@ -3,7 +3,7 @@ layout: simple
 
 Get a discount on your accommodation in Porto!
 
-Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2022 attendees!
+Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2024 attendees!
 
 All of our partner hotels are located in the city centre and are close to this year’s venue, Super Bock Arena, making any of them a great choice for your's DjangoCon stay. Read on to find out how to book your discounted rates.
 
@@ -21,7 +21,7 @@ Hotel Moon & Sun Porto is located in the trendiest area of the city. Next to Car
 
 **Discount:** 15% discount off best available rate.
 
-**Conditions:** Bookings be made on the official website using the promotional code ```DJANGOCON2022```. Discounts available from one month before to one month after the conference.
+**Conditions:** Bookings be made on the official website using the promotional code ```DJANGOCON2024```. Discounts available from one month before to one month after the conference.
 
 Also available in Braga **Hotel Moon & Sun Braga** [www.ms-hotels.com/braga](https://www.ms-hotels.com/braga/){:target="_blank"}
 
@@ -37,7 +37,7 @@ Find Premium Porto Downtown in the heart of Porto, next to the city culture of t
 
 **Discount:** 15% discount off best available rate.
 
-**Conditions:** Bookings be made on the hotel website using the promotional code ```DJANGOCON2022```. Discounts available from 21 to 26 of September. Free cancellation until 17/09/2022.
+**Conditions:** Bookings be made on the hotel website using the promotional code ```DJANGOCON2024```. Discounts available from 21 to 26 of September. Free cancellation until 17/09/2024.
 
 <hr/>
 
@@ -56,7 +56,7 @@ The rooms at our hotel have a minimalist, simple and elegant decor, where both c
 	- Duplo - 130.00€
 	- The rates shown are per room, per night, buffet breakfast included.
 	- City tourist tax not included (2€/pax/night).
-	- Free cancellations up to 48 hours. Discounts available from 19 of September to 3 of October. Free cancellation until 17/09/2022.
+	- Free cancellations up to 48 hours. Discounts available from 19 of September to 3 of October. Free cancellation until 17/09/2024.
 
 <hr/>
 
@@ -95,7 +95,7 @@ Welcome to your 5 star home. Located on Avenida dos Aliados, Maison Albar Le Mon
 
 **Discount:** 15% discount off best available rate.
 
-**Conditions:** Bookings can be made on the official website using the promotional code ```DjangoCon2022``` or using the e-mail/phone number: porto.[reservations@maisonalbar.eu](mailto:reservations@maisonalbar.eu) / +351 227 662 410 indicating the same promocodes. Discounts available from 21 to 25 of September.
+**Conditions:** Bookings can be made on the official website using the promotional code ```DjangoCon2024``` or using the e-mail/phone number: porto.[reservations@maisonalbar.eu](mailto:reservations@maisonalbar.eu) / +351 227 662 410 indicating the same promocodes. Discounts available from 21 to 25 of September.
 
 <hr/>
 
@@ -113,7 +113,7 @@ The hotels under the HF brand are located in the heart of the two main Portugues
 
 **Discount:** 6% discount off best available rate and access to exclusive offers that will be launched.
 
-**Conditions:** Bookings can be made on the booking website [djangoconepycon2022.hfhotels.com](https://djangoconepycon2022.hfhotels.com){:target="_blank"}. Reservations can be made until the day before the conference, subject to availability.
+**Conditions:** Bookings can be made on the booking website [djangoconepycon2024.hfhotels.com](https://djangoconepycon2024.hfhotels.com){:target="_blank"}. Reservations can be made until the day before the conference, subject to availability.
 
 <hr/>
 
@@ -160,7 +160,7 @@ Created in a beautifully restored 19th century building, the Gallery Hostel offe
 
 **Discount:** 15% discount on any type of accommodation for Gallery Hostel and 10% discount for Gallery Townhouse & Home and Casa Carolina.
 
-**Conditions:** Bookings can be made on the official website of Gallery Hostel e Gallery Townhouse [www.gallery-hostel.com](https://www.gallery-hostel.com/){:target="_blank"} or in Casa Carolina [www.casacarolina.pt](https://www.casacarolina.pt/){:target="_blank"} using the promotional code ```DJANGOCON2022```. 
+**Conditions:** Bookings can be made on the official website of Gallery Hostel e Gallery Townhouse [www.gallery-hostel.com](https://www.gallery-hostel.com/){:target="_blank"} or in Casa Carolina [www.casacarolina.pt](https://www.casacarolina.pt/){:target="_blank"} using the promotional code ```DJANGOCON2024```. 
 
 <hr/>
 
@@ -176,7 +176,7 @@ Located on the left bank of the Douro River, just 10 minutes from the historic c
 
 **Discount:** 5 % discounts available from 19 to 30 of September
 
-**Conditions:** Bookings can be made on the official website using the promotional code ```DjangoCon2022```. Free cancellation up to 48 hours before check-in date.
+**Conditions:** Bookings can be made on the official website using the promotional code ```DjangoCon2024```. Free cancellation up to 48 hours before check-in date.
 
 <hr/>
 
@@ -202,7 +202,7 @@ Porto's most prestigious city centre luxury hotel the Infante Sagres has been a 
 
 **Conditions:** Bookings can be made on the  official website using the promotional code. Discounts available from 18 to 28 of September.
 
-**Discount:** Rates available using the promotional code: ```DJANGOCON2022```
+**Discount:** Rates available using the promotional code: ```DJANGOCON2024```
 
 ##### Torel Avantgarde
 
@@ -243,7 +243,7 @@ Charming five-star boutique hotel housed in a stunning 19th-century mansion, loc
 - Courtesy of the Hotel: Wi-Fi Internet | 24H gym
 - Discounts available from 21 to 26 of September. To extend your stay, the request must be made via email [mt.rio@nh-hotels.com](mailto:mt.rio@nh-hotels.com) (Teresa Cruz).
 - Rates valid exclusively for reservations made through the booking website.
-- Valid until 31/07/2022. From this date, we will release the block made and any reservation will be subject to the availability of the hotel with the best rate of the day available at the time.
+- Valid until 31/07/2024. From this date, we will release the block made and any reservation will be subject to the availability of the hotel with the best rate of the day available at the time.
 
 ##### NH Collection Porto Batalha
 
@@ -275,7 +275,7 @@ The Pestana Palácio do Freixo is characterised by its sumptuous eighteenth cent
 
 **Website:** [www.pestanacollection.com/pt/hotel/freixo-palace](https://www.pestanacollection.com/pt/hotel/freixo-palace){:target="_blank"}
 
-**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-p30&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON](https://secure.pestana.com/en/availability?theme=all&destination=h-p30&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON){:target="_blank"}  
+**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-p30&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON](https://secure.pestana.com/en/availability?theme=all&destination=h-p30&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON){:target="_blank"}  
 
 ##### Pestana Vintage Porto
 
@@ -284,7 +284,7 @@ Postcards always feature the hotel right in front of the Douro River, which blen
 
 **Website:** [www.pestanacollection.com/pt/hotel/pestana-porto?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4ZXmFa6-lOIvxupiXZR4hZOVmvRcLzKQITQY3-1tUlTYBVMc5gOSmhoCb0UQAvD_BwE](https://www.pestanacollection.com/pt/hotel/pestana-porto?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4ZXmFa6-lOIvxupiXZR4hZOVmvRcLzKQITQY3-1tUlTYBVMc5gOSmhoCb0UQAvD_BwE){:target="_blank"}
 
-**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-porto&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON ](https://secure.pestana.com/en/availability?theme=all&destination=h-porto&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON ){:target="_blank"} 
+**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-porto&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON ](https://secure.pestana.com/en/availability?theme=all&destination=h-porto&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON ){:target="_blank"} 
  
 ##### Pestana A Brasileira
 
@@ -293,7 +293,7 @@ This luxury hotel, nearby the Sá da Bandeira Theatre and the famous São Bento 
 
 **Website:** [www.pestanacollection.com/pt/hotel/pestana-porto-brasileira?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4TlyQFhVGJ98pLw37SWq3vfPPgmQjnQ2-q98klU6A4zmJiDWvsmP3RoC0tQQAvD_BwE](https://www.pestanacollection.com/pt/hotel/pestana-porto-brasileira?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4TlyQFhVGJ98pLw37SWq3vfPPgmQjnQ2-q98klU6A4zmJiDWvsmP3RoC0tQQAvD_BwE){:target="_blank"}
 
-**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-brasilei&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON](https://secure.pestana.com/en/availability?theme=all&destination=h-brasilei&checkin=09%2F16%2F2022&checkout=09%2F30%2F2022&adults=1&code=DJANGOCON){:target="_blank"}  
+**Booking Website:** [secure.pestana.com/en/availability?theme=all&destination=h-brasilei&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON](https://secure.pestana.com/en/availability?theme=all&destination=h-brasilei&checkin=09%2F16%2F2024&checkout=09%2F30%2F2024&adults=1&code=DJANGOCON){:target="_blank"}  
 
 <hr/>
 
@@ -304,7 +304,7 @@ This luxury hotel, nearby the Sá da Bandeira Theatre and the famous São Bento 
 **Discount:** Take advantage of the 10% discount! 
 
 **Conditions:** 
-- Valid for stays between September 20 and 26, 2022.
+- Valid for stays between September 20 and 26, 2024.
 - Discount valid for direct bookings from vilagale.com on the best Vila Galé rate on bed and breakfast basis
 - Enter the ```DJANGOPORTO22``` promocodes in the "Promotional Code" field
 - Does not accumulate with discounts from the Vila Galé club or with other campaigns in force
@@ -331,7 +331,7 @@ The Vila Galé Porto Ribeira, official hotel of DjangoCon Europe has a few minut
 **Discount:** 5% discount on the PVP rate.
 
 **Conditions:** 
-- Promocional Code: ```DjangoPycon2022```         	
+- Promocional Code: ```DjangoPycon2024```         	
 - Maximum of 30 rooms;
 - Code valid until 07.08.22;
 - Cancellations after 08.21 have 100% of expenses;

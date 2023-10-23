@@ -760,3 +760,123 @@ img.hotel{
     grid-auto-columns: 100%;
   }
 }
+
+.card a{
+    color:#863b35 !important;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .button1-container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 60%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .button2-container {
+          width: 400px;
+          height: 400px;
+          position: relative;
+          left: 45%;
+          top: 25%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+
+        
+  }
+
+
+@media screen and (max-width: 1000px) {
+    .button1-container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 100%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .button2-container {
+          width: 400px;
+          height: 400px;
+          position: relative;
+          left: 45%;
+          top: 25%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+       
+        .main_title{
+            color: #66322e;
+            position: relative;
+            padding-top: 100px;
+            left: 30%;
+        }
+  }
+
+  @media screen and (max-width: 770px) {
+    .button1-container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 65%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .button2-container {
+          width: 400px;
+          height: 400px;
+          position: relative;
+          left: 0%;
+          top: 25%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .main_title{
+            color: #66322e;
+            position: relative;
+            padding-top: 100px;
+            left: 20%;
+        }
+       
+  }
+
+
+
+  @media screen and (max-width: 550px) {
+
+
+    .button1-container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 87%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+       
+  }

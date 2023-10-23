@@ -58,6 +58,6 @@ def links(request):
             'slack': 'https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA',
             'youtube': 'https://youtube.com/user/djangoconeurope/',
             'linkedin': 'https://linkedin.com/company/djangocon-europe/',
-            'github': 'https://github.com/djangocon/2022.djangocon.eu/',
+            'github': 'https://github.com/djangocon/2024.djangocon.eu/',
         }
     }

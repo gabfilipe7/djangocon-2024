@@ -1,7 +1,7 @@
 title: boat cruise ⛵
 layout: simple
 
-At the end of each day, DjangoCon Europe 2022 will feature the "**Seven Bridges Boat Cruise**" on the Douro River for all the participants free of charge. Due to the large number of participants, we'll do 3 boat rides, with the participants being divided in 3 groups (one for each day). [**You need to sign up** to one of the dates to be able to hop on the boat cruise!](https://forms.gle/j3CSxu5xey6JquAa8){target: "_blank"} Max. 1 boat ride per participant, subject to availability.
+At the end of each day, DjangoCon Europe 2024 will feature the "**Seven Bridges Boat Cruise**" on the Douro River for all the participants free of charge. Due to the large number of participants, we'll do 3 boat rides, with the participants being divided in 3 groups (one for each day). [**You need to sign up** to one of the dates to be able to hop on the boat cruise!](https://forms.gle/j3CSxu5xey6JquAa8){target: "_blank"} Max. 1 boat ride per participant, subject to availability.
 
 [<center><button class="btn">Sign up for Free Boat Cruise!</button></center>](https://forms.gle/j3CSxu5xey6JquAa8){:target="_blank"}
 

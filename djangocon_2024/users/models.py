@@ -5,7 +5,7 @@ from django.utils.translation import gettext_lazy as _
 
 class User(AbstractUser):
     """
-    Default custom user model for DjangoCon 2022.
+    Default custom user model for DjangoCon 2024.
     If adding fields that need to be filled at user signup,
     check forms.SignupForm and forms.SocialSignupForms accordingly.
     """
