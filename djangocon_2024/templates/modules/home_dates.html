@@ -1,220 +1,49 @@
-<h1 class="d-block text-center title title-lg">{{ content.meta.title.0 }}</h1>
-<div class="carousel-container">
-  <div class="wrapper">
-    <i id="left" class="fa-solid fa-angle-left"></i>
-    <ul class="carousel" id="dateCarousel">
-    </ul>
-    <i id="right" class="fa-solid fa-angle-right"></i>
-  </div>
-
-  <script>
-        const contentData = [
-      {
-        month: "March",
-        events: [
-          "🎫 16th - Super Early Bird [Ticket sales](/tickets/) open (SOLD OUT)",
-        
-          " ✈️  18th - [Grants](/information/grants/) applications' form opens ",
-
-          "🎤 23rd - [Call for Participation](/talks/cfp/) opens "
-        ]
-      },
-      {
-        month: "April",
-        events: ["🎫 1st - Super Early Bird [Ticket sales](/tickets/) close (SOLD OUT) "]
-      },
-      {
-        month: "May",
-        events: ["🎤 31st - [Call for Participation](/talks/cfp/) deadline "]
-      },
-      {
-        month: "June",
-        events: [
-          "🎫 1st - Early Bird [Ticket sales](/tickets/) close* ",
-          "✈️ 15th - [Grants](/information/grants/) application deadline "
-        ]
-      },
-      {
-        month: "July",
-        events: [
-          "🎙 1st - [Talks](https://twitter.com/djangoconeurope)start being published ",
-          "🗓 15th - [Schedule](/talks/schedule/) is published "
-        ]
-      },
-      {
-        month: "August",
-        events: [
-          "👕 15th - [T-shirt purchase](/information/tshirts/) dealine for deliveries at the conference ",
-          "👶 31st - [Childcare](/information/hospitality/#childcare) applications dealine "
-        ]
-      },
-      {
-        month: "September",
-        events: [
-          "🎪 21st, 22nd, 23rd - Main Conference",
-          "⛵️ 21st, 22nd, 23rd - [Boat Cruise](/information/social_events/)",
-          "🎉 22rd - [Party](/information/social_events/)",
-          "🎪 24th, 25th - Sprints"
-        ]
-      },
-      // Add data for other months here
-    ];
-
-    // Function to generate cards and populate the carousel
-    function populateCarousel() {
-  const dateCarousel = document.getElementById("dateCarousel");
-
-  contentData.forEach((monthData) => {
-    const card = document.createElement("li");
-    card.classList.add("card");
-
-    const monthHeader = document.createElement("h2");
-    monthHeader.textContent = monthData.month;
-
-    const eventsList = document.createElement("ul");
-    monthData.events.forEach((eventText) => {
-      const eventItem = document.createElement("li");
-      const eventLink = document.createElement("a");
-
-      // Extract link text and URL from the eventText
-      const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/;
-      const matches = eventText.match(linkPattern);
-
-      if (matches) {
-        const linkText = matches[1];
-        const linkURL = matches[2];
-
-        // Set the link's href and text content
-        eventLink.href = linkURL;
-        eventLink.textContent = linkText;
-
-        // Replace the link in the eventText with an empty string
-        eventText = eventText.replace(linkPattern, "");
-      }
-
-      eventItem.innerHTML = eventText;
-      if (eventLink.href) {
-        eventItem.appendChild(eventLink);
-      }
-
-      eventsList.appendChild(eventItem);
-    });
-
-    card.appendChild(monthHeader);
-    card.appendChild(eventsList);
-
-    dateCarousel.appendChild(card);
-  });
-}
-
-populateCarousel();
+{% load static %}
 
 
-
-    const wrapper = document.querySelector(".wrapper");
-    const carousel = document.querySelector(".carousel");
-    const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-    const arrowBtns = document.querySelectorAll(".wrapper i");
-    const carouselChildrens = [...carousel.children];
-
-    let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
-
-    // Get the number of cards that can fit in the carousel at once
-    let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
-
-    // Insert copies of the last few cards to beginning of carousel for infinite scrolling
-    carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-        carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-    });
-
-    // Insert copies of the first few cards to end of carousel for infinite scrolling
-    carouselChildrens.slice(0, cardPerView).forEach(card => {
-        carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-    });
-
-    // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
-    carousel.classList.add("no-transition");
-    carousel.scrollLeft = carousel.offsetWidth;
-    carousel.classList.remove("no-transition");
-
-    // Add event listeners for the arrow buttons to scroll the carousel left and right
-    arrowBtns.forEach(btn => {
-        btn.addEventListener("click", () => {
-            carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
-        });
-    });
-
-    const dragStart = (e) => {
-        isDragging = true;
-        carousel.classList.add("dragging");
-        // Records the initial cursor and scroll position of the carousel
-        startX = e.pageX;
-        startScrollLeft = carousel.scrollLeft;
-    }
-
-    const dragging = (e) => {
-        if(!isDragging) return; // if isDragging is false return from here
-        // Updates the scroll position of the carousel based on the cursor movement
-        carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-    }
-
-    const dragStop = () => {
-        isDragging = false;
-        carousel.classList.remove("dragging");
-    }
-
-    const infiniteScroll = () => {
-        // If the carousel is at the beginning, scroll to the end
-        if(carousel.scrollLeft === 0) {
-            carousel.classList.add("no-transition");
-            carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
-            carousel.classList.remove("no-transition");
-        }
-        // If the carousel is at the end, scroll to the beginning
-        else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
-            carousel.classList.add("no-transition");
-            carousel.scrollLeft = carousel.offsetWidth;
-            carousel.classList.remove("no-transition");
-        }
-
-        // Clear existing timeout & start autoplay if mouse is not hovering over carousel
-        clearTimeout(timeoutId);
-        if(!wrapper.matches(":hover")) autoPlay();
-    }
-
-    const autoPlay = () => {
-        if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
-        // Autoplay the carousel after every 2500 ms
-        timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
-    }
-    autoPlay();
-
-    carousel.addEventListener("mousedown", dragStart);
-    carousel.addEventListener("mousemove", dragging);
-    document.addEventListener("mouseup", dragStop);
-    carousel.addEventListener("scroll", infiniteScroll);
-    wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-    wrapper.addEventListener("mouseleave", autoPlay);
-  </script>
-  
+<div class="dates_container" >
+    <img src="{% static 'images/other/important_dates.png' %}" class="dates_logo" alt="tickets">
 </div>
 
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+
+  <div class="tabs">
+    <label class="tab" id="one-tab" for="one">January</label>
+    <label class="tab" id="two-tab" for="two">March</label>
+    <label class="tab" id="three-tab" for="three">June</label>
+    <label class="tab" id="four-tab" for="four">August</label>
+  </div>
+
+  <div class="panels">
+    <div class="panel" id="one-panel">
+      <div class="panel-title">January</div>
+
+        <p> 🐤 May 31 - Early Bird tickets sales close</p>
+        <p> 🐤 June 7 - Early Bird tickets sales close</p>
 
 
+    </div>
+    <div class="panel" id="two-panel">
+      <div class="panel-title">March</div>
+        <p> 📩 June 30 - Call for Participations closes</p>
+        <p> 📥 July 31 - Application for Opportunity Grants closes</p>
+        <p> 👶 August 1 - Childcare application opens</p>
+        <p>📆 August 20 - Schedule is published</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    <div class="panel" id="three-panel">
+      <div class="panel-title">June</div>
+      <p>👶 August 31 - Childcare application closes</p>
+      <p>🔛 September 7, 8 - Main Conference</p>
+    </div>
+    <div class="panel" id="four-panel">
+      <div class="panel-title">August</div>
+      <p>🎉 September 8 - PyCon Portugal 2023 Party </p>
+      <p>⌨️ September 9 - Workshops </p>
+    </div>
+  </div>
+</div>

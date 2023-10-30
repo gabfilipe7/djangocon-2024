@@ -2,24 +2,29 @@
 {% load static %}
 {% block content %}
 
-  {# HOME-HEADER #}
-  <div class="container" id="home_header">
-      <div class="col-md-6 order-1 order-md-0" id="main_logo">
-        <img src="{% static 'images/logo/main_logo.png' %}" alt="Wave Image" class="img-fluid">
-      </div>
+{# HOME-HEADER #}
+<div class="centered-logo">
+  <div id="main_logo">
+    <img src="{% static 'images/logo/main_logo.png' %}" alt="Djangocon 2024 logo" class="img-fluid">
   </div>
+</div>
   
-  
-{# HOME-ABOUT #}
+{# SLIDE TEXT #}
 {% include 'modules/default.html' with content=files.0 %}
 
-{# IMPORTANT DATES #}
+{# HOME-ABOUT #}
 {% include 'modules/default.html' with content=files.1 %}
+
+{# TICKETS #}
+{% include 'modules/default.html' with content=files.2 %}
+
+{# IMPORTANT DATES #}
+{% include 'modules/default.html' with content=files.3 %}
 
 {# HOME-SPONSORS #}
 <div class="container-fluid home-sponsors">
   <h1 class="d-block text-center title title-lg">our <strong>sponsors</strong></h1>
-  {% include 'modules/default.html' with content=files.2 %}
+
 </div>
 
 {#  ABOUT#}

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .home-text,.important-dates .dates blockquote blockquote p{
     font:normal normal normal 18px/24px Ubuntu,sans-serif;
@@ -41,16 +42,40 @@
     width:100%;
 }
 .home-subheader{
+
     padding-left: 0px; 
     padding-right: 0px;
-    background-color: #863b35;
-    max-height: 1000px;
+    background-color: #f2e7dc;
+    max-height:1400px;
     border:none;
-    color:#fff;
+    color:#000000;
 }
 
-.home_dates-content {
-    background-color: #863b35;
+.centered-content-tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.dates_container{
+    margin-top: 100px;
+    text-align: center;
+    position:relative;
+    right: 280px;
+}
+
+.dates_logo{
+    width: 600px;
+    display: inline-block;
+}
+
+
+
+#vid{
+    border-radius:20px;
+    height: 700px;
+
 }
 
 .custom-image {
@@ -59,14 +84,80 @@
     height: auto; /* This maintains the image's aspect ratio */
   }
   
-  #main_logo {
-    text-align: center;
+.centered-logo {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#main_logo img {
-    display: block;
-    margin: 0 auto; /* This centers the image horizontally */
+#tickets_menu{
+    width: 1200px !important;
 }
+
+.title-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-container img {
+    width: 300px !important;
+    position: relative;
+    right: 450px;
+    display: inline-block;
+}
+
+#ticket123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#ticket123 .image-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+#ticket123 .button-overlay {
+    position: absolute;
+    z-index: 1;
+}
+
+#ticket123 .button1 {
+    font-size: large;
+    top: 83%;
+    left: 6.5%;
+}
+
+#ticket123 .button2 {
+    font-size: large;
+    top: 83%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#ticket123 .button3 {
+    font-size: large;
+    top: 83%;
+    right: 6.5%;
+}
+
+#ticket123 .button {
+    background-color: #863b35;
+    color: #ffffff;
+    border-radius: 11px;
+    width: 100%;
+    height: 2%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#ticket123 .button:hover {
+    background-color: #af6b66;
+}
+
 
 
 .home-subheader .btn-tickets{
@@ -79,9 +170,12 @@
     max-width:331px;
     padding:.625rem 2.875rem
 }
+
 .home-subheader .home-about p{
     margin-top:1rem
 }
+
+
 @media (max-width:767.98px){
     .important-dates .dates blockquote{
         display:block!important;
@@ -338,7 +432,7 @@ body,html{
 .header .nav-link-lg{
     display:inline-block;
     padding-left:2rem;
-    color:#000000 !important;
+    color:#57302e !important;
 }
 
 .header .nav-link-lg:hover{
@@ -515,22 +609,58 @@ img.hotel{
     z-index: 1; 
   }
 
-
-#wave_container {
-    background-image: url('../images/background/wave_top.png');
-
-    height: 650px;
-    background-size: 100% auto;
-    background-repeat: no-repeat; 
-    max-width: 4800px;
+  .scrolling_text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    background-color: #863b35;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
 }
 
-#wave_text {
+.text {
+    font-size: 80px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #3A1240;
+}
+
+.text span {
+    margin: 0 40px;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    padding-top: 30%;
-    color: #f2ebe3;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #3A1240;
+    animation: animate_text 20s linear infinite; /* The animation property */
 }
 
+
+.custom-centered-content {
+    width: 100%;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    max-width: 20000px; /* Adjust the width as needed */
+    text-align: center; /* Center text within the element */
+    height: 2000px;
+    padding-bottom: 1000px;
+  }
+  
 
 @media screen and (min-width: 2081px) {
     #wave_text {
@@ -817,4 +947,79 @@ img.hotel{
         align-items: center;
       }
        
+  }
+  
+  h2 {
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .warpper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .tab {
+    font-size: x-large;
+    text-align: center;
+    width: 280px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 2px;
+    background-color: #f2e7dc;;
+    display: inline-block;
+    color: #020101;
+  }
+  
+  .panels {
+    font-size: x-large;
+    min-height: 200px;
+    width: 1144px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+    border-top: 3px solid #863b35;
+  }
+  
+  .panel {
+    display: none;
+    animation: fadein 0.8s;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .panel-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .radio {
+    display: none;
+  }
+  
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel,
+  #four:checked ~ .panels #four-panel {
+    display: block;
+  }
+  
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab,
+  #three:checked ~ .tabs #three-tab,
+  #four:checked ~ .tabs #four-tab {
+    background: #863b35;
+    color: #ffffff;
   }
