@@ -1,8 +1,8 @@
 title: talks schedule
 layout: simple
 
-** The event schedule is now available! **
+More information coming soon!
 
-<center>[<button class="btn">View schedule!</button>](https://pretalx.evolutio.pt/djangocon-europe-2024/schedule/){:target="_blank"}</center>
+Don't forget to follow us on X (formerly known as Twitter) @DjangoConEurope, [Slack](djangoconeurope.slack.com) , or [LinkedIn](www.linkedin.com/company/djangocon-europe/)  for the latest up-to-date information!
 
-Follow us on social media for up to date information - see footer below!
+ 

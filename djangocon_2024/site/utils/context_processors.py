@@ -11,24 +11,10 @@ def links(request):
                     'Schedule': '/talks/schedule/',
                 },
             },
-            'Information': {
-                'dropdown': 'true',
-                'submenu': {
-                    'Vigo': '/information/vigo/',
-                    'Venue': '/information/venue/',
-                    'Grants': '/information/grants/',
-                    'Sprints': '/information/sprints/',
-                    'Hospitality': '/information/hospitality/',
-                    'Social Events': '/information/social_events/',
-                    'T-shirts': '/information/tshirts/',
-                    'Announcements': '/information/announcements/',
-                },
-            },
             'Sponsors & Jobs': {
                 'dropdown': 'true',
                 'submenu': {
                     'Sponsors': '/sponsors/sponsors',
-                    'Supporters': '/sponsors/supporters/',
                     'Jobs': '/sponsors/jobs/',
                     'Sponsorship': '/sponsors/sponsorship/',
                 },

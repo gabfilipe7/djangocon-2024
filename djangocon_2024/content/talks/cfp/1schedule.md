@@ -2,9 +2,9 @@ title: schedule 🗓️
 layout: simple
 class: bg-grey
 
-* **Talks** - September 21-23
-* **Workshops** - September 21-23
-* **Lightning Talks** - September 21-23 (at the end of each day)
-* **Sprints** - September 24-25
 
-The conference will take place from 9AM to 6PM.
+More information coming soon!
+
+Don't forget to follow us on X (formerly known as Twitter) @DjangoConEurope, [Slack](djangoconeurope.slack.com) , or [LinkedIn](www.linkedin.com/company/djangocon-europe/)  for the latest up-to-date information!
+
+ 

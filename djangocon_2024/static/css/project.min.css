@@ -59,8 +59,13 @@
     height: auto; /* This maintains the image's aspect ratio */
   }
   
-#main_logo {
-    margin-top: 5%;
+  #main_logo {
+    text-align: center;
+}
+
+#main_logo img {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
 }
 
 
@@ -496,73 +501,6 @@ img.hotel{
     width:auto
 }
 
-
-.button1-container {
-  width: 400px;
-  height: 400px;
-  position: relative;
-  left: 50%;
-  top: 5%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button2-container {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    left: 35%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-#btn1 {
-    
-    font-size: 20px !important;
-    width: 340px;
-    height: 70px;
-    border-radius: 35px;
-    cursor: pointer;
-    background-color: #AC7870;
-    border: 1px solid #AC7870;
-    outline: none;
-}
-
-#btn2 {
-    font-size: 20px !important;
-    width: 340px;
-    height: 70px;
-    border-radius: 35px;
-    cursor: pointer;
-    background-color: #AC7870;
-    border: 1px solid #AC7870;
-    outline: none;
-  }
-
-
-#btn1:hover {
-  background-color: #753831;
-}
-#btn2:hover {
-    background-color: #753831;
-}
-
-.btn:focus {
-    outline: none !important;
-    box-shadow: none;
-}
-  
-
-.btn span {
-  color: white;
-  font-size: 22px;
-  font-weight: 100;
-}
-
 .overlay-text {
     
     position: absolute;
@@ -723,7 +661,7 @@ img.hotel{
     scroll-snap-align: start;
     height: 342px;
     list-style: none;
-    background: #eec7c4;
+    background: #ede1e0;
     border-width: 5px;
     border-color: #863b35;
     cursor: pointer;

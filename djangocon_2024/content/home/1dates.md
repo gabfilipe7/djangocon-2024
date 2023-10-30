@@ -3,7 +3,7 @@ layout: home_dates
 
 > #### march
 >
-> > 🎫 16th - Super Early Bird [Ticket sales](/tickets/) open (SOLD OUT)
+> > 🎫 16th - Super Early Bird  [Ticket sales](/tickets/ ) open (SOLD OUT)
 > >
 > > ✈️ 18th - [Grants](/information/grants/) applications' form opens
 > >
