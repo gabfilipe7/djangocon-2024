@@ -398,6 +398,160 @@ body,html{
 
 }
 
+
+.speakers .swiper-wrapper{
+    position:relative;
+    width:100vw;
+    display: flex;
+}
+
+
+.speakers .title-container{
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:10px
+}
+
+.speakers .swiper-wrapper{
+    position:relative;
+    width:100vw;
+    display: flex;
+}
+
+.speakers .swiper-wrapper .swiper-slide{
+    width:400px
+}
+
+.speakers .swiper-wrapper .swiper-slide .speaker-name{
+    -webkit-box-align:end;
+    -ms-flex-align:end;
+    align-items:end;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    font-size:20px;
+    font-weight:600;
+    padding-left:25px;
+    text-transform:uppercase;
+    bottom:15%
+}
+.speakers .swiper-wrapper .swiper-slide .speaker-name:before{
+    content:"\f4da ";
+    font-family:Bootstrap-icons;
+    left:0;
+    position:absolute;
+    top:0
+}
+.speakers .swiper-wrapper .swiper-slide .speaker-position{
+    font-size:14px;
+    font-weight:300;
+    top:20%
+}
+
+
+
+.explore-the-facilities-row .swiper-wrapper, .explore-the-city-row .swiper-wrapper, .party-row .swiper-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  .explore-the-facilities-row .swiper-wrapper .swiper-slide, .explore-the-city-row .swiper-wrapper .swiper-slide, .party-row .swiper-wrapper .swiper-slide {
+    width: 380px;
+  }
+  .explore-the-facilities-row .swiper-wrapper .swiper-slide p, .explore-the-city-row .swiper-wrapper .swiper-slide p, .party-row .swiper-wrapper .swiper-slide p {
+    display: inline-block;
+  }
+  .explore-the-facilities-row .swiper-wrapper .swiper-slide img, .explore-the-city-row .swiper-wrapper .swiper-slide img, .party-row .swiper-wrapper .swiper-slide img {
+    -o-object-fit: fill;
+       object-fit: fill;
+    width: 380px;
+    height: 250px;
+    pointer-events: none;
+  }
+
+
+.speakers .title-container{
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:10px
+}
+.speakers .title-container .swiper-buttons{
+    position:relative;
+    width:100px
+}
+.speakers .title-container .swiper-buttons .swiper-button-next{
+    float:right;
+    position:relative
+}
+.speakers .title-container .swiper-buttons .swiper-button-prev{
+    float:left;
+    position:relative
+}
+.speakers .swiper{
+    overflow:visible
+}
+
+.swiper-slide, .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+    }
+
+.speakers .swiper-wrapper .swiper-slide{
+    width:400px
+}
+.speakers .swiper-wrapper .swiper-slide p{
+    border-radius:24px;
+    display:inline-block;
+    -webkit-transition:all .1s ease-in-out;
+    transition:all .1s ease-in-out
+}
+
+.speakers .swiper-wrapper .swiper-slide p:hover{ 
+    -webkit-box-shadow:0 0 10px 0 #863b35;
+    box-shadow:0 0 10px 0 #863b35;
+    -webkit-transition:all .1s ease-in-out;
+    transition:all .1s ease-in-out;
+    z-index: 2;
+}
+
+.speakers .swiper-wrapper .swiper-slide b,.speakers .swiper-wrapper .swiper-slide strong{
+    color:white;
+    left:10%;
+    position:absolute;
+}
+
+.speakers .swiper-wrapper .swiper-slide img{
+    border-radius:25px;
+    bottom:inherit;
+    float:right;
+    height:400px;
+    -o-object-fit:contain;
+    object-fit:cover;
+    pointer-events:none;
+    width:360px
+}
+
+.speakers .swiper-wrapper .swiper-slide::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 400px;
+    background: linear-gradient(to top, rgba(134,59,53, 0.7) , rgba(255, 255, 255, 0) 100%);
+    width: 360px;
+    border-radius: 25px;
+}
+
+
 #talk{
     margin-top: 0px;
     width: 20%;

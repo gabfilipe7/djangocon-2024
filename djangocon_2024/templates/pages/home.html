@@ -21,11 +21,33 @@
 {# IMPORTANT DATES #}
 {% include 'modules/default.html' with content=files.3 %}
 
-{# HOME-SPONSORS #}
-<div class="container-fluid home-sponsors">
-  <h1 class="d-block text-center title title-lg">our <strong>sponsors</strong></h1>
+{# HOME-SPEAKERS #} 
+<div class="container-fluid speakers py-5">
+  <div class="container">
+    <div class="title-container">
+      <img src="{% static 'images/other/speakers.png' %}" alt="speakers">
+      <div class="swiper-buttons d-none d-sm-block">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <div class="swiper">
+      {% include 'modules/home_speakers.html' %}
+    </div>
+  </div>
 
 </div>
+
+{# HOME-SPONSORS #}
+<div class="container-fluid sponsors py-5">
+  <div class="container">
+    <img src="{% static 'images/other/sponsors.png' %}" alt="sponsors">
+    <div class="row pt-5 gx-1">
+      {% include 'modules/home_sponsors.html' with content=files.5 %}
+    </div>
+  </div>
+</div>
+
 
 {#  ABOUT#}
 {#  {% include 'templates/default.html' with content=files.0 %}#}
