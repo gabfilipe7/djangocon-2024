@@ -20,6 +20,8 @@
         text-align:end
     }
 }
+
+
 .home-header{
     background-color:#f2e7dc;
     background-position:bottom;
@@ -46,7 +48,7 @@
     padding-left: 0px; 
     padding-right: 0px;
     background-color: #f2e7dc;
-    max-height:1400px;
+    max-height:1230px;
     border:none;
     color:#000000;
 }
@@ -228,8 +230,13 @@
 }
 
 #about_title {
-    font-size:140% !important;
+    font-size:2.3rem !important;
 }
+
+.home-about p {
+    font-size:1.3rem;
+}
+
 #ticket123 {
     display: flex;
     justify-content: center;
@@ -1251,6 +1258,7 @@ img.hotel{
     border-radius: 3px;
     overflow: hidden;
     padding: 20px;
+    color: #863b35 ;
     border-top: 3px solid #863b35;
   }
   
@@ -1291,3 +1299,13 @@ img.hotel{
     background: #863b35;
     color: #ffffff;
   }
+
+  #dates_title{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    position: relative;
+    top: 0.6%;
+    margin-left: 32%;
+
+}
