@@ -21,7 +21,6 @@
     }
 }
 
-
 .home-header{
     background-color:#f2e7dc;
     background-position:bottom;
@@ -67,12 +66,6 @@
     right: 280px;
 }
 
-.dates_logo{
-    width: 600px;
-    display: inline-block;
-}
-
-
 
 #vid{
     border-radius:20px;
@@ -107,18 +100,19 @@
 }
 
 .title-container .speakers_image {
-    left:68px;
-    height: 55px;
-}
-
-.title-container .tickets_image {
     left:50px;
     height: 55px;
 }
 
-.title-container .sponsors_image {
+.title-container .tickets_image {
     left:73px;
     height: 55px;
+}
+
+.title-container .sponsors_image, .dates_logo {
+    left:73px;
+    height: 55px;
+      margin-top: 50px;
 }
 
 .sponsors_content{
@@ -132,6 +126,8 @@
     margin-top: 50px;
   }
   
+
+
   .left-side {
     flex: 1;
     padding-right: 20px;
@@ -507,21 +503,6 @@ body,html{
     padding-left:0;
     padding-right:0
 }
-@media (max-width:991.98px){
-    .header-logo{
-        padding-left:0;
-        padding-right:2rem
-    }
-}
-@media (max-width:359.98px){
-    .header-margin{
-        display:none!important
-    }
-    .header-logo{
-        padding-right:0
-    }
-}
-
 
 #tickets{
     margin-top: 0px;
@@ -939,33 +920,6 @@ img.hotel{
   }
   
 
-@media screen and (min-width: 2081px) {
-    #wave_text {
-        padding-top: 33%;
-    }
-  }
-  @media screen and (min-width: 3081px) {
-    #wave_container {
-      height: 1000px;
-    }
-
-    #wave_text {
-        font-size: 30px;
-        padding-top: 48%;
-    }
-
-  }
-  @media screen and (min-width: 4081px) {
-    #wave_container {
-        height: 1100px; 
-        
-    }
-    #wave_text {
-        padding-top: 53%;
-    }
-
-  }
-
 
   .main_title{
     color: #66322e;
@@ -1248,20 +1202,25 @@ img.hotel{
     cursor: pointer;
     padding: 10px 20px;
     margin: 0px 2px;
-    background-color: #f2e7dc;;
+    background-color: #f2e7dc;
     display: inline-block;
     color: #020101;
   }
+
+
+  .tabs{
+    border-bottom: 3px solid #863b35;
+}
+
   
   .panels {
     font-size: x-large;
     min-height: 200px;
-    width: 1144px;
-    border-radius: 3px;
     overflow: hidden;
     padding: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
     color: #863b35 ;
-    border-top: 3px solid #863b35;
   }
   
   .panel {
@@ -1278,10 +1237,6 @@ img.hotel{
     }
   }
   
-  .panel-title {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
   
   .radio {
     display: none;
@@ -1303,6 +1258,251 @@ img.hotel{
   }
 
   #dates_title{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    position: relative;
+    top: 0.6%;
+    margin-left: 25%;
+
+}
+
+
+@media (max-width:359.98px){
+    .header-margin{
+        display:none!important
+    }
+    .header-logo{
+        padding-right:0
+    }
+}
+
+
+@media (max-width: 1400px){
+
+    .sponsors_content .left-side p{
+        font-size: 1.5rem;
+        padding-right: 30px;
+    }
+    
+    .right-side p {
+        padding-right: 0px;
+    }
+    
+    .right-side {
+        padding-top: 60px;
+    }
+
+    .title-container .sponsors_image, .dates_logo, .tickets_image {
+        height: 40px;
+    }
+
+    .right-side .btn {
+        font-size: 0.9rem;
+    }
+    
+    .sponsors_content .left-side h2{
+        font-size: 2.5rem;
+    }
+
+    .tab {
+        width: 200px;
+      }
+}
+
+@media (max-width: 1065px){
+    .title-container .sponsors_image, .dates_logo, .tickets_image  {
+        left:0px !important;
+        height: 50px;
+    }
+
+    .container-footer{
+        max-width: 900px !important;
+      }
+
+  .panels {
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+      }
+
+    .sponsor-container {
+        display: block;
+        margin-bottom: 80px;
+        margin-top: 50px;
+      }
+      
+    
+    .left-side {
+        padding-right: 0px;
+      }
+      
+      .right-side {
+        padding-left: 0px;
+        padding-top: 20px;
+      }
+    
+
+    .sponsors_content .left-side p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        padding-right: 2rem;
+    }
+
+    .right-side .btn {
+        padding-right: 2rem;
+      }
+    
+      .sponsors_content{
+        margin-left:0px;
+    }
+
+    .tab {
+        width: 150px;
+      }
+      
+}
+
+
+@media (max-width:991.98px){
+    .header-logo{
+        padding-left:0;
+        padding-right:2rem
+    }
+    .social_media{
+        justify-content: center !important;
+    }
+    .got_questions h2, p{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 750px){
+    
+    .tab {
+        width: 120px;
+        font-size: 1rem;
+        padding: 10px 0px;
+      }
+    
+
+  .panels {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.2rem;
+  }
+
+  .panels p{
+    text-align: center;
+  }
+      
+}
+@media (max-width: 550px){
+    
+    .tab {
+        width: 80px;
+      }
+      
+}
+@media (max-width: 400px){
+    .title-container .sponsors_image, .tickets_image  {
+        height: 40px;
+    }
+
+    .sponsors_content .left-side h2{
+      font-size: 2rem;
+  }
+  .tab {
+    width: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .panels {
+    font-size: 1rem;
+  }
+  
+      
+}
+
+
+#tickets_menu {
+    background-image: url('../images/other/tickets_menu.png');
+    background-size: cover;
+    width: 1200px;
+    height: 480px;
+
+}
+
+@media screen and (max-width: 1199px) {
+    #tickets_menu {
+        background-image: url('../images/other/tickets_menu_vertical.png') !important;
+        width: 500px !important;
+        height: 2000px;
+    }
+
+    #ticket123 .button1 {
+        font-size: large;
+        top: 27.5%;
+        left: 26.5%;
+    }
+
+    #ticket123 .button2 {
+        font-size: large;
+        top: 61%;
+        left: 50.5%;
+        transform: translateX(-50%);
+    }
+
+    #ticket123 .button3 {
+        font-size: large;
+        top: 94%;
+        left: 26.5%;
+    }
+    .home-subheader {
+        max-height: 650px;
+        /* 1230 px*/
+
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    #tickets_menu {
+        background-image: url('../images/other/tickets_menu_vertical.png') !important;
+        width: 300px !important;
+        height: 1180px;
+    }
+
+    #ticket123 .button1 {
+        width: 240px;
+        left: 13.5%;
+    }
+
+    #ticket123 .button2 {
+        width: 240px;
+    }
+
+    #ticket123 .button3 {
+        width: 240px;
+        left: 13.5%;
+    }
+
+    .home-subheader {
+        max-height: 750px;
+      
+
+    }
+
+}
+
+
+#dates_title {
     font-weight: 400;
     font-size: 2rem;
     margin-top: 0.5rem;
