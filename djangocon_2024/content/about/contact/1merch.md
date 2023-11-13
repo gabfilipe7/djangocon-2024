@@ -1,4 +1,4 @@
-title: freebies
+title: merch
 layout: simple
 class: bg-grey
 

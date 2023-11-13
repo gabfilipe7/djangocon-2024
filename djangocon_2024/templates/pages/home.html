@@ -4,7 +4,9 @@
 
 {# HOME-HEADER #}
 
-<div id="dates_title"> WE'RE BACK - JUNE 5TH-9TH</div>
+<div class="container">
+  <div id="dates_title"> WE'RE BACK - JUNE 5TH-9TH</div>
+</div>
 <div class="centered-logo">
   <div id="main_logo">
     <img src="{% static 'images/logo/main_logo.png' %}" alt="Djangocon 2024 logo" class="img-fluid">
@@ -47,7 +49,6 @@
     <img src="{% static 'images/other/sponsors.png' %}" class="sponsors_image" alt="sponsors">
   </div>
     <div class="sponsors_content">
-      {% include 'modules/home_sponsors.html' with content=files.5 %}
       <div class="become_sponsor">
         <div class="sponsor-container">
           <div class="left-side">
@@ -56,7 +57,7 @@
           </div>
           <div class="right-side">
             <p>By tapping into this community, your brand can leverage value. We deliver stock sponsorship packages and/or custom sponsorship opportunities with high impact in terms of increased visibility and lead generation, such as prime booth locations, speaking opportunities, and branding exposure.</p>
-            <a type="button" class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" href="https://pretix.evolutio.pt/evolutio/pyconpt2023/" target="_blank">DISCOVER THE AVAILABLE SPONSORSHIP OPPORTUNITIES</a>
+            <a type="button" class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" href="/sponsors/sponsorship/" target="_blank">DISCOVER THE AVAILABLE SPONSORSHIP OPPORTUNITIES</a>
           </div>
         </div>        
     </div>

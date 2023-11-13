@@ -48,7 +48,7 @@
     padding-left: 0px; 
     padding-right: 0px;
     background-color: #f2e7dc;
-    max-height:1230px;
+    max-height:450px; /* 1230 px*/
     border:none;
     color:#000000;
 }
@@ -112,7 +112,7 @@
 }
 
 .title-container .tickets_image {
-    left:320px;
+    left:50px;
     height: 55px;
 }
 
@@ -253,23 +253,25 @@
     position: absolute;
     z-index: 1;
 }
-
+.button{
+    text-decoration: none !important;
+}
 #ticket123 .button1 {
     font-size: large;
-    top: 83%;
+    top: 85%;
     left: 6.5%;
 }
 
 #ticket123 .button2 {
     font-size: large;
-    top: 83%;
+    top: 85%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 #ticket123 .button3 {
     font-size: large;
-    top: 83%;
+    top: 85%;
     right: 6.5%;
 }
 
@@ -1306,6 +1308,6 @@ img.hotel{
     margin-top: 0.5rem;
     position: relative;
     top: 0.6%;
-    margin-left: 32%;
+    margin-left: 25%;
 
 }
