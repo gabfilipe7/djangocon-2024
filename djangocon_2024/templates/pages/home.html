@@ -25,7 +25,7 @@
 <div class="container-fluid speakers py-5">
   <div class="container">
     <div class="title-container">
-      <img src="{% static 'images/other/speakers.png' %}" alt="speakers">
+      <img src="{% static 'images/other/speakers.png' %}" class="speakers_image" alt="speakers">
       <div class="swiper-buttons d-none d-sm-block">
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -41,9 +41,22 @@
 {# HOME-SPONSORS #}
 <div class="container-fluid sponsors py-5">
   <div class="container">
-    <img src="{% static 'images/other/sponsors.png' %}" alt="sponsors">
-    <div class="row pt-5 gx-1">
+    <div class="title-container">
+    <img src="{% static 'images/other/sponsors.png' %}" class="sponsors_image" alt="sponsors">
+  </div>
+    <div class="sponsors_content">
       {% include 'modules/home_sponsors.html' with content=files.5 %}
+      <div class="become_sponsor">
+        <div class="sponsor-container">
+          <div class="left-side">
+            <h2>Become a Sponsor</h2>
+            <p>Gain valuable exposure for your brand and help us ensure the success of DjangoCon Europe by becoming a sponsor or exhibitor!</p>
+          </div>
+          <div class="right-side">
+            <p>By tapping into this community, your brand can leverage value. We deliver stock sponsorship packages and/or custom sponsorship opportunities with high impact in terms of increased visibility and lead generation, such as prime booth locations, speaking opportunities, and branding exposure.</p>
+            <a type="button" class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase" href="https://pretix.evolutio.pt/evolutio/pyconpt2023/" target="_blank">DISCOVER THE AVAILABLE SPONSORSHIP OPPORTUNITIES</a>
+          </div>
+        </div>        
     </div>
   </div>
 </div>
