@@ -4,9 +4,9 @@
   <div class="container inner-content-width">
     <div class="row justify-content-between">
       <div class="col-12 col-lg-4 footer-links align-self-center">
-        <a class="nav-link" href="{{ home }}"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
+        <a class="nav-link follow_us_fotter" href="{{ home }}"><img src="{% static 'images/other/follow_us.svg' %}" alt="Logo" height="50rem;"></a>
       </div>
-      <div class="col row row-cols-5 align-self-center justify-content-center footer-links">
+      <div class="col row row-cols-5 social_media">
         {% for smedia, smedia_href in social_media.items %}
           {% with smedia_logo='images/external_logo/logo_'|add:smedia|add:'.svg' %}
             <div class="col-2 text-center footer-social-media-link">
@@ -15,33 +15,18 @@
           {% endwith %}
         {% endfor %}
       </div>
-      <div class="col-12 col-lg-4 row align-self-end justify-content-end footer-links text-center">
-        <h5>Looking for another DjangoCon?</h5>
-        <ul class="list-unstyled">
-          <li><a class="nav-link text-white" href="https://djangocon.africa/" target="_blank">DjangoCon Africa</a></li>
-          <li><a class="nav-link text-white" href="https://djangocon.com.au/" target="_blank">DjangoCon Australia</a></li>
-          <li><a class="nav-link text-white" href="https://djangocon.us/" target="_blank">DjangoCon US</a></li>
-        </ul>
-      </div>
     </div>
 
     <hr class="w-100 mt-4" style="margin: 0px; padding: 0px; border-top: 1px solid rgba(255, 255, 255, .5);"/>
 
     <div class="row footer-site-map">
-      {% for menu, menu_dict in site_menu.items %}
-        <div class="col-lg-2 col-sm-4 col-12">
-          {% if menu_dict.dropdown == 'false' %}
-            <div class="footer-title"><a class="text-white" href="{{ menu_dict.href }}"><strong> {{ menu }} </strong></a><br/></div>
-          {% endif %}
-          {% if menu_dict.dropdown == 'true' %}
-            <div class="footer-title"><strong> {{ menu }} </strong><br/>
-            </div>
-              {% for submenu, submenu_href in menu_dict.submenu.items %}
-                <a class="text-white" href="{{ submenu_href }}">{{ submenu }}</a><br/>
-              {% endfor %}
-          {% endif %}
-        </div>
-      {% endfor %}
+      <div class="col-12 col-lg-4 footer-links align-self-center">
+        <a class="nav-link" href="{{ home }}"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="60rem;"></a>
+      </div>
+      <div class="col got_questions">
+        <h2>Got any questions?</h2>
+        <p>2024@djangocon.eu</p>
+      </div>
     </div>
   </div>
   <div class="row justify-content-center footer-end">

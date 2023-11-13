@@ -1,7 +1,7 @@
 title: about
 layout: home_about
 
-**<span id ="about_title" style="font-size: 150%;">RUN BY THE COMMUNITY FOR THE COMMUNITY</span>**
+**<span id ="about_title">RUN BY THE COMMUNITY FOR THE COMMUNITY</span>**
 
 <br>
 
@@ -14,5 +14,5 @@ Our conference seeks to educate and develop new skills, best practices and ideas
 
 <br>
 
-
-<p><iframe id="vid" width="100%" height="315"x src="https://www.youtube.com/embed/4zgNG4-VDOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<!-- 
+<p><iframe id="vid" width="100%" height="315"x src="https://www.youtube.com/embed/4zgNG4-VDOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
